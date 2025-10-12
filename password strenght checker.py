@@ -3,13 +3,13 @@ import tkinter as tk
 def check_password_strength():
     length = len(password_entry.get())
     if length <= 5:
-        strength, color = "Weak", "Red"
+        strength, color = "Weak ᯓ★ˎˊ˗", "maroon"
     elif length <= 8:
-        strength, color = "Medium", "Yellow"
+        strength, color = "Medium ᯓ★ˎˊ˗", "light pink"
     elif length <= 12:
-        strength, color = "Strong", "Light Green"
+        strength, color = "Strong ᯓ★ˎˊ˗", "Light Green"
     else:
-        strength, color = "Very Strong", "Dark Green"
+        strength, color = "perfect ᯓ★ˎˊ˗", "sap green"
     strength_label.config(text=strength, fg=color)
 
 screen = tk.Tk()
