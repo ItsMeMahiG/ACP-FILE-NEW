@@ -30,19 +30,19 @@ def convert_length():
 
 root = tk.Tk()
 root.title("Length Converter App")
-root.geometry("400x250")
+root.geometry("500x500")
 
 length_label = tk.Label(root, text="Length:")
 length_label.pack(pady=5)
 length_entry = tk.Entry(root)
 length_entry.pack(pady=5)
 
-from_unit_label = tk.Label(root, text="From Unit (m, km, cm, mm, in, ft, yd):")
+from_unit_label = tk.Label(root, text="to Unit (m, km, cm, mm, in, ft, yd):")
 from_unit_label.pack(pady=5)
 from_unit_entry = tk.Entry(root)
 from_unit_entry.pack(pady=5)
 
-to_unit_label = tk.Label(root, text="To Unit (m, km, cm, mm, in, ft, yd):")
+to_unit_label = tk.Label(root, text="from Unit (m, km, cm, mm, in, ft, yd):")
 to_unit_label.pack(pady=5)
 to_unit_entry = tk.Entry(root)
 to_unit_entry.pack(pady=5)

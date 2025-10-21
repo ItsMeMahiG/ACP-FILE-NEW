@@ -20,7 +20,7 @@ def calculate_interest():
 
 root = tk.Tk()
 root.title("Interest Calculator")
-root.geometry("300x250")
+root.geometry("500x500")
 
 tk.Label(root, text="Principal:").pack(pady=5)
 principal_entry = tk.Entry(root)
